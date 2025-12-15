@@ -1,19 +1,24 @@
-= README
+= FlowLogix Bill of Materials (BOM)
 
-This project has been automatically generated using the
-https://start.flowlogix.com[FlowLogix Quick Start] tool from the
-https://github.com/flowlogix/archetype[FlowLogix Starter] archetype.
+The `flowlogix-bom` project simplifies dependency management for Jakarta EE and related projects by providing a curated set of tested and compatible dependency versions.
 
-== Running the sample
-[source,shell]
-----
-./mvnw verify
-----
+This BOM is frequently updated (once a week on-average).
 
-== Regenerating the project
-To regenerate the project, run the following command:
-[source,shell]
+== Usage
+
+To use this BOM, add the following to your project's `pom.xml` in the `<dependencyManagement>` section:
+
+[source,xml]
 ----
-mvn archetype:generate -DarchetypeGroupId=com.flowlogix.archetypes -DarchetypeArtifactId=starter \
--DarchetypeVersion=LATEST
+<dependencyManagement>
+    <dependencies>
+        <dependency>
+            <groupId>com.flowlogix</groupId>
+            <artifactId>flowlogix-bom</artifactId>
+            <version>YOUR_VERSION_HERE</version>
+            <type>pom</type>
+            <scope>import</scope>
+        </dependency>
+    </dependencies>
+</dependencyManagement>
 ----
