@@ -1,9 +1,8 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>flowlogix-bom</artifactId>
-    <version>x-SNAPSHOT</version>
+    <version>14</version>
     <packaging>pom</packaging>
 
     <name>Flow Logix BOM</name>
@@ -14,7 +13,8 @@
         <connection>scm:git:git://github.com/flowlogix/flowlogix-bom.git</connection>
         <developerConnection>scm:git:git@github.com:flowlogix/flowlogix-bom.git</developerConnection>
         <url>https://github.com/flowlogix/flowlogix-bom/tree/main</url>
-    </scm>
+      <tag>Version-14</tag>
+  </scm>
 
     <parent>
         <groupId>com.flowlogix</groupId>
