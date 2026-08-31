@@ -115,6 +115,11 @@
                 <artifactId>guava</artifactId>
                 <version>33.7.1-jre</version>
             </dependency>
+            <dependency>
+                <groupId>org.jspecify</groupId>
+                <artifactId>jspecify</artifactId>
+                <version>1.0.1</version>
+            </dependency>
 
             <!-- BOM dependencies -->
             <dependency>
