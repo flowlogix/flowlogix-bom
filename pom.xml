@@ -19,7 +19,7 @@
     <parent>
         <groupId>com.flowlogix</groupId>
         <artifactId>infra-pom</artifactId>
-        <version>146</version>
+        <version>147</version>
     </parent>
 
     <properties>
@@ -33,7 +33,7 @@
             <dependency>
                 <groupId>org.omnifaces</groupId>
                 <artifactId>omnifaces</artifactId>
-                <version>5.5.5</version>
+                <version>5.5.6</version>
             </dependency>
             <dependency>
                 <groupId>org.primefaces</groupId>
