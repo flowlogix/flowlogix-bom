@@ -22,6 +22,10 @@
         <version>148</version>
     </parent>
 
+    <modules>
+        <module>flowlogix-quarkus-bom</module>
+    </modules>
+
     <properties>
         <slf4j.version>2.0.20</slf4j.version>
         <bytebuddy.version>1.18.17</bytebuddy.version>
