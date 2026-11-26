@@ -148,6 +148,23 @@
                     </exclusion>
                 </exclusions>
             </dependency>
+            <dependency>
+                <!-- Version mirrors the OmniFaces release it wraps -->
+                <groupId>io.quarkiverse.omnifaces</groupId>
+                <artifactId>quarkus-omnifaces</artifactId>
+                <version>5.5.7</version>
+            </dependency>
+            <dependency>
+                <!-- Version mirrors the MyFaces release it wraps -->
+                <groupId>org.apache.myfaces.core.extensions.quarkus</groupId>
+                <artifactId>myfaces-quarkus</artifactId>
+                <version>4.1.4</version>
+            </dependency>
+            <dependency>
+                <groupId>io.quarkiverse.primefaces</groupId>
+                <artifactId>quarkus-primefaces</artifactId>
+                <version>4.16.3</version>
+            </dependency>
         </dependencies>
     </dependencyManagement>
 </project>
