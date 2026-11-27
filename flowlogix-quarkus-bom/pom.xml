@@ -138,17 +138,6 @@
                 </exclusions>
             </dependency>
             <dependency>
-                <groupId>io.quarkus</groupId>
-                <artifactId>quarkus-arc</artifactId>
-                <version>${quarkus.version}</version>
-                <exclusions>
-                    <exclusion>
-                        <groupId>jakarta.enterprise</groupId>
-                        <artifactId>*</artifactId>
-                    </exclusion>
-                </exclusions>
-            </dependency>
-            <dependency>
                 <!-- Version mirrors the OmniFaces release it wraps -->
                 <groupId>io.quarkiverse.omnifaces</groupId>
                 <artifactId>quarkus-omnifaces</artifactId>
